@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu+Mono:wght@400;700&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #E5E5E5;
+}
+
+main {
+    padding-top: 150px;
+    max-width: 890px;
+    background-color: #ffffff;
+    width: 95%;
+    height: calc(100vh - 150px);
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -23,11 +33,24 @@ p {
     text-align: center;
     padding: 15px;
     max-width: 500px;
-    margin: 50px auto;
-    margin-top: 150px;
+    margin: 60px auto;
     border-radius: 15px;
     border: 1px solid #4C48F8;
     box-shadow: 1px;
+    box-shadow: 1px 3px 3px 0 #00000050;
+    padding-bottom: 30px;
+}
+
+.name {
+    margin: 5px auto;
+    margin-top: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 10px 0;
 }
 
 .card img {
@@ -37,7 +60,8 @@ p {
     position: relative;
     margin: 0 auto;
     display: block;
-    margin-top: -75px;
+    margin-top: -90px;
+    box-shadow: 1px 3px 3px 0 #00000050;
 }
 
 .link-buttons {
@@ -46,9 +70,13 @@ p {
 }
 
 .link-button {
+    font-family: 'Ubuntu Mono', monospace;
     text-decoration: none;
     border-radius: 5px;
     color: #ffffff;
+    font-size: large;
     background-color: #4C48F8;
-    padding: 10px;
+    padding: 7px;
+    margin: 10px 40px;
+    box-shadow: 1px 3px 3px 0 #00000050;
 }
