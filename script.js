@@ -1,0 +1,13 @@
+const menu = document.querySelector(".menu-container");
+
+document.addEventListener("click", event => {
+    console.log(event.target.classList);
+    if(event.target.classList.contains("menu-title") || event.target.parentNode.classList.contains("menu-title")){
+        menu.classList.toggle("hidden");
+    } else {
+        menu.classList.add("hidden");
+    }
+});
+
+function toggleMenu(event){
+};
