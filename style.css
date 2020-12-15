@@ -188,3 +188,13 @@ p {
     height: 100%;
     border-radius: 5px;
 }
+
+.portfolio-item .content .title a {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #4C48F8;
+    font-size: 1.4rem;  
+}
+
+.portfolio-item .content .description {
+    padding: 10px 0px;
+} 
