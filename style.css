@@ -29,6 +29,15 @@ section, header {
     padding: 60px 80px;
 }
 
+section {
+    max-width: 768px;
+    background-color: #ffffff;
+    width: 95%;
+    min-height: calc(100vh - 160px);
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
 header {
     min-height: 150px;
 }
@@ -38,6 +47,7 @@ h1, h2, h3, h4, h5, h5 {
     color: #4C48F8;
     margin: 0;
     padding: 0;
+    font-size: 1.8rem;
 }
 
 p {
@@ -120,7 +130,7 @@ p {
 .menu-title p {
     font-family: 'Ubuntu Mono', monospace;
     margin-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .menu-title img {
@@ -152,4 +162,29 @@ p {
 .menu-link a {
     text-decoration: none;
     font-weight: 400;
+    color: #000000;
+}
+
+.menu-link a:hover, .menu-link a.active {
+    color: #4C48F8;
+}
+
+.menu-link a.active {
+    font-weight: 700;
+}
+
+.portfolio-item {
+    display: flex;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.portfolio-item .capture {
+    height: 9rem;
+    margin-right: 15px;
+}
+
+.portfolio-item .capture img {
+    height: 100%;
+    border-radius: 5px;
 }

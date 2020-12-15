@@ -8,30 +8,87 @@
     <title>Joseph Mpo Yeti • Portfolio</title>
   </head>
   <body>
-      <header>
-        <nav class="navbar">
-            <h1>Portfolio</h1>
-            <div class="menu">
-                <div class="menu-title">
-                    <p>Menu</p>
-                    <img src="./img/menu.svg" alt="menu">
+        <header>
+            <nav class="navbar">
+                <h1>Portfolio</h1>
+                <div class="menu">
+                    <div class="menu-title">
+                        <p>Menu</p>
+                        <img src="./img/menu.svg" alt="menu">
+                    </div>
+                    <div class="menu-container hidden">
+                        <ul>
+                            <li class="menu-link"><a href="./index.html">Home</a></li>
+                            <li class="menu-link"><a href="./resume.html">Resume</a></li>
+                            <li class="menu-link"><a href="#" class="active">Portfolio</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="menu-container hidden">
-                    <ul>
-                        <li class="menu-link"><a href="./index.html">Home</a></li>
-                        <li class="menu-link"><a href="./resume.html">Resume</a></li>
-                        <li class="menu-link"><a href="#">Portfolio</a></li>
-                    </ul>
+            </nav>
+        </header>
+        <section id="porfolio-section">
+            <article class="portfolio-item">
+                <div class="capture">
+                    <img src="./img/mi349_soundboard.png" alt="soundboard webpage" >
                 </div>
-            </div>
-        </nav>
-      </header>
-      <section id="porfolio-section">
-          <article class="portfolio-item">
+                <div class="content">
+                    <h2 class="title">
+                        <a href="">Soundboard</a>
+                    </h2>
+                    <p class="description">
+                        The soundboard is a representation of a collection of sounds that are 
+                        played with a corresponding element is clicked. I added a visual clue to 
+                        indicate the state of the sound associated with each button. 
+                    </p>
+                </div>
+            </article>
+            <article class="portfolio-item">
+                <div class="capture">
+                    <img src="./img/mi349_blog.png" alt="blog screenshot" >
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        <a href="">Blog</a>
+                    </h2>
+                    <p class="description">
+                        I have published a few articles about my
+                        journey as a web developer and I also
+                        discuss other interesting topics.
+                    </p>
+                </div>
+            </article>
+            <article class="portfolio-item">
+                <div class="capture">
+                    <img src="./img/movies.png" alt="soundboard webpage" >
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        <a href="">React & Node.js</a>
+                    </h2>
+                    <p class="description">
+                        Movies is an application that helps users
+                        find movies. It fetches data using The
+                        Open Movie Database API, a free and
+                        public api for movies.
+                    </p>
+                </div>
+            </article>
+            <article class="portfolio-item">
+                <div class="capture">
+                    <img src="./img/mi349_card.png" alt="soundboard webpage" >
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        <a href="">Card</a>
+                    </h2>
+                    <p class="description">
+                        This is a simple card with links to my
+                        social media profiles.
+                    </p>
+                </div>
+            </article>
+        </section>
 
-          </article>
-      </section>
-
-    <script src="./script.js"></script>
-  </body>
+        <script src="./script.js"></script>
+    </body>
 </html>

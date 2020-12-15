@@ -8,6 +8,3 @@ document.addEventListener("click", event => {
         menu.classList.add("hidden");
     }
 });
-
-function toggleMenu(event){
-};
