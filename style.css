@@ -145,6 +145,7 @@ p {
     margin-top: 40px;
     position: absolute;
     right: 0;
+    background-color: #ffffff;
     text-align: right;
     box-shadow: 2px 4px 6px 0px #00000025;
     z-index: 3;
@@ -175,6 +176,11 @@ p {
 
 .menu-link a.active {
     font-weight: 700;
+}
+
+.menu-list {
+    padding: 15px;
+    margin: 0;
 }
 
 .portfolio-item {
@@ -243,4 +249,62 @@ p {
     font-size: .9rem;
     list-style-type: "- ";
     padding: 0;
+}
+
+@media all and (max-width: 768px){
+    header {
+        min-height: 75px;
+    }
+
+    section {
+        min-height: calc(100vh - 75px);
+    }
+
+    header, section, main {
+        width: 100%;
+        padding: 60px;
+    }
+
+    section {
+        padding-bottom: 50px;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+
+    .portfolio-item .content .title {
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width: 640px){
+
+    .portfolio-item {
+        display: block;
+    }
+}
+
+@media all and (max-width: 425px){
+    header, section, main {
+        width: 100%;
+        padding: 20px;
+    }
+
+    section {
+        padding-bottom: 50px;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+
+    .card .link-buttons {
+        padding: 0;
+    }
+
+    .capture, .capture img {
+        height: unset !important;
+        width: 100%;
+    }
 }
